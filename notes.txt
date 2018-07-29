@@ -1,0 +1,32 @@
+Rules for fonts: 
+  -- Use a font size between 15px and 25px
+  -- Use really big font sizes for headlines ex 90px
+  -- use line spacing between 120% and 150%
+  -- 45 to 90 characters per line
+  -- Use good fonts
+  -- Sans-serif:
+    -- More neutral
+    -- Clean
+    -- Simple
+    -- Modern Websites
+    -- Good fonts:
+      -- Open Sans
+      -- Lato
+      -- Raleway
+      -- Monsterrat
+      -- PT Sans
+  -- Serif:
+    -- More traditional
+    -- Storytelling
+    -- Long reading
+    -- Good fonts:
+      -- Cardo
+      -- Merriweather
+      -- PT Serif
+
+Using colors like a pro:
+  --Use only one base color
+  -- Flat UI Colors (website)
+  -- Never use black ex #000 lighten it up
+  
+  
