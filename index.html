@@ -21,23 +21,25 @@
 
 <body>
   <!-- Header -->
-  <header>
+  <header id="home">
     <nav>
       <div class="row">
         <img class="logo" src="resources/images/logo-white.png" alt="Site Logo">
-        <img class="logo-black" src="resources/images/logo.png" alt="Site Logo">
+        <a href="#home">
+          <img class="logo-black" src="resources/images/logo.png" alt="Site Logo">
+        </a>
         <ul class="main-nav">
           <li>
-            <a href="#">Food delivery</a>
+            <a href="#features">Food delivery</a>
           </li>
           <li>
-            <a href="#">How it works</a>
+            <a href="#steps">How it works</a>
           </li>
           <li>
-            <a href="#">Our cities</a>
+            <a href="#locations">Our cities</a>
           </li>
           <li>
-            <a href="#">Sign up</a>
+            <a href="#plans">Sign up</a>
           </li>
         </ul>
       </div>
@@ -45,13 +47,13 @@
     <div class="hero-text-box">
       <h1>Goodbye junk food.
         <br>Hello super healthy meals</h1>
-      <a class="btn btn-full" href="#">I’m hungry</a>
-      <a class="btn btn-ghost" href="#">Show me more</a>
+      <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+      <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
     </div>
   </header>
   <!-- End Header -->
   <!-- Features -->
-  <section class="section-features">
+  <section class="section-features js--section-features" id="features">
     <div class="row">
       <h2>Get food fast &mdash; not fast food.
       </h2>
@@ -144,7 +146,7 @@
   </section>
   <!-- End Meals -->
   <!-- Steps -->
-  <section class="section-steps">
+  <section class="section-steps" id="steps">
     <div class="row">
       <h2>How it works &mdash; Simple as 1, 2, 3
       </h2>
@@ -179,7 +181,7 @@
   </section>
   <!-- End Steps -->
   <!-- Begin Cities -->
-  <section class="section-cities">
+  <section class="section-cities" id="locations">
     <div class="row">
       <h2>We're currently in these cities
       </h2>
@@ -291,7 +293,7 @@
   </section>
   <!-- End Customer section -->
   <!-- Pricing section -->
-  <section class="section-plans">
+  <section class="section-plans js--section-plans" id="plans">
     <div class="row">
       <h2>Start eating healthy today</h2>
     </div>
