@@ -124,4 +124,7 @@ $(document).ready(function() {
       icon.removeClass("ion-close-round");
     }
   });
+
+  // Maps
+  let map = new GMaps({ div: ".map", lat: 35.7433648, lng: -79.8002026 });
 });
